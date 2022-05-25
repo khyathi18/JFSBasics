@@ -34,7 +34,6 @@ public class ProductList {
 //		productno.forEach(System.out::println);
 		System.out.println("////////using Arrays.asList() method////////");
 		productno1.forEach(System.out::println);
-		Stream s=product_no.stream();
-		s.filter(item->item.getPrice()>20000).filter(product->product.getProductBrand()=="Oppo");
+
 }
 }
